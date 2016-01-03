@@ -12,5 +12,6 @@ gem2.0 install jekyll                                // install jekyll
 gem2.0 install github-pages                          // install github-pages
 gem2.0 update github-pages                           // update github-pages
 jekyll build                                         // build the blog project
+jekyll serve
 
 ```

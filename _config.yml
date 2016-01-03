@@ -7,15 +7,22 @@
 
 # Site settings
 title: HexMonad Blog
+author: HexMonad
+author_avatar: https://gravatar.com/avatar/c28969c60b32b0220f5a958928b7b379?s=80
 email: hexmonad@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Blog about whatever.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://hexmonad.github.io"
+#twitter_username: foo_bar
+#github_username: foo_bar
+github_repo: hexmonad
+#google_analytics: UA-80085-YOUR-ID
+# disqus: disqus-id
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+excerpt_separator: "<!-- more -->"
+
+gems:
+  - jekyll-sitemap
